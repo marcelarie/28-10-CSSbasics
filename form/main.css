@@ -4,12 +4,59 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 a { color: inherit; }
 
 /*form*/
-form {
-    position: fixed;
+.form-container {
+    background-color: silver;
+}
+label { 
+    padding: 12px 12px 12px 0;
+    font-size: larger;
+    display: inline-block;
+    margin-right: 1em;
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+}
+/* floats */
+.flo-75 {
+    float: left;
+    width: 75%;
+}
+.flo-25 {
+    float: left;
+    width: 25%;
+}
+.row {
+    clear: both;
+}
+/*buttons*/
+input[type=submit] {
+    padding: 8px;
     left: 50%;
-    top: 10%;
+    background-image: linear-gradient(yellow,gold);
+    color: black;
+    margin-top: 7vw;
+    font-size:larger;
+    width: 10%;
+    outline: none;
+    min-width: 6em;
+}
+input[type=submit]:active{
+    background-image: linear-gradient(gold,yellow);
+}
+/*mediaQ*/
+@media screen and (max-width: 600px) {
+    .flo-25, .fol-75{
+    width: 100%;
+    margin-top: 0;
+    }
+    input[type=submit] {
+    width: 100%;
+}
 }

@@ -11,21 +11,63 @@
 </head>
 
 <main>
-    <form>
-        <label for="fname">Full name:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
-        <label for="tlf">Telephone number:</label><br>
-        <input type="tel" id="tlf" name="tlf" value=""><br>
-        <label for="email">Email adress:</label><br>
-        <input type="email" id="email" name="email" value=""><br>
-        <label for="addr">Street:</label><br>
-        <input type="text" id="addr" name="adress" value=""><br>
-        <label for="dni">DNI/NIF/NIE:</label><br>
-        <input type="text" id="dni" name="dni" value="" pattern="((([X-Z])|([LM])){1}([-]?)((\d){7})([-]?)([A-Z]{1}))|((\d{8})([-]?)([A-Z]))"><br>
-        <label for="coment">Any extra info: </label><br>
-        <input type="text" id="coment" name="coment" value=""><br>
-        <input type="submit" value="Submit">
-    </form>
+    <div class="form-container">
+        <form>
+            <div class="row">
+                <div class="flo-25" >
+                    <label  for="fname">Full name:</label>
+                </div>
+                <div class="flo-75" >
+                    <input  type="text" id="fname" name="fname" value="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="flo-25" >
+                    <label  for="tlf">Telephone:</label>
+                </div>
+                <div class="flo-75" >
+                    <input  type="tel" id="tlf" name="tlf" value="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="flo-25" >
+                    <label  for="email">Email adress:</label>
+                </div>
+                <div class="flo-75" >
+                    <input  type="email" id="email" name="email" value="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="flo-25" >
+                    <label  for="addr">Street:</label>
+                </div>
+                <div class="flo-75" >
+                    <input  type="text" id="addr" name="adress" value="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="flo-25" >
+                    <label  for="dni">DNI/NIF/NIE:</label>
+                </div>
+                <div class="flo-75" >
+                    <input  type="text" id="dni" name="dni" value="" pattern="((([X-Z])|([LM])){1}([-]?)((\d){7})([-]?)([A-Z]{1}))|((\d{8})([-]?)([A-Z]))">
+                </div>
+            </div>
+            <div class="row">
+                <div class="flo-25" >
+                    <label  for="coment">Any extra info: </label>
+                </div>
+                <div class="flo-75" >
+                    <input  type="text" id="coment" name="coment" value="">
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
 </main>
 
 <body>

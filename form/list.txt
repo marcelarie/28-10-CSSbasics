@@ -10,6 +10,7 @@ HTML Forms:
 https://www.w3schools.com/html/html_forms.asp
 DNI/NIF/NIE regexp validator:
 https://www.miguelangelmedina.es/37-expresion-regular-para-validar-el-formato-de-un-nif-nie
+Remove outline button >>> outline:none;
 
 ╦═╗┌─┐┌─┐ ┬ ┬┬┬─┐┌─┐┌┬┐┌─┐┌┐┌┌┬┐┌─┐
 ╠╦╝├┤ │─┼┐│ ││├┬┘├┤ │││├┤ │││ │ └─┐
