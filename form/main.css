@@ -10,7 +10,7 @@ a { color: inherit; }
 
 /*form*/
 .form-container {
-    background-color: silver;
+    background-color: #5892FF;
 }
 label { 
     padding: 12px 12px 12px 0;
@@ -21,12 +21,14 @@ label {
 input {
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 9px;
+    border-radius: 5px;
+    width: 100%;
 }
 /* floats */
 .flo-75 {
     float: left;
     width: 75%;
+    margin-top: 6px;
 }
 .flo-25 {
     float: left;
@@ -41,7 +43,7 @@ input[type=submit] {
     left: 50%;
     background-image: linear-gradient(yellow,gold);
     color: black;
-    margin-top: 7vw;
+    margin-top: 2vw;
     font-size:larger;
     width: 10%;
     outline: none;
