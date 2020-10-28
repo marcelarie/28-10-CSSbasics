@@ -8,3 +8,8 @@
 a { color: inherit; }
 
 /*form*/
+form {
+    position: fixed;
+    left: 50%;
+    top: 10%;
+}
