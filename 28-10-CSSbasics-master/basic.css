@@ -1,0 +1,74 @@
+/* Select all the H2 elements (using one instruction) and change at least the color property */
+h2 {
+    color: #170B3B;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Create a class that applies a border property and use in it in one elemen */
+.div2 {
+    border: 2px solid grey;
+    padding: 20px;
+    background-color: cornsilk;
+}
+
+/* Create a class that applies margin and padding properties */
+.unmarked {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Create a ul or ol element and change the list-style */
+.inside {
+    list-style-position: inside;
+    padding: 10px;
+    list-style-type: circle;
+}
+
+/* Select all the paragraphs that are child elements of a div and change the font-weight to bold */
+div p {
+    font-weight: bold;
+}
+
+/* Select all the images that have a alt attribute (with one instruction) and change their width properties */
+img {
+    width: 120px;
+    height: auto;
+    margin: 5px 0;
+}
+
+/* Change the background color and text color of all the form elements */
+.form-container {
+    background-color: #FFF8DC;
+}
+
+/* Change the document background (color or image) */
+body {
+    background-image: url("/assets/img/workplace-2303851_1920.jpg");
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-color:#E5C7C7 ;
+}
+
+/* Create multiple classes to define all the font sizes in your site */
+.font-size {
+    font-size: 1em;
+}
+
+/* Implement some CSS3 rules that bring something new or creative to your site */
+/*mediaQ*/
+@media (max-width: 1200px) {
+    main {
+        padding: 0 2em;
+    }
+    #navibar {
+        display: flex;
+        position: unset;
+        border-bottom: 1px solid #342368;
+        }
+    .list-items {
+        display: inline;
+        flex: 1;
+    }
+}
+

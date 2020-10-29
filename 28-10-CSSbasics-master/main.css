@@ -1,0 +1,124 @@
+/*NotoSans*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+/*FiraCode*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+/*FiraSans*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 140%;
+    text-decoration: none;
+}
+a { color: inherit; }
+
+/*margin*/
+.margin-auto {
+    margin: 0 auto;
+    max-width: 900px;
+    margin-top: 1em;
+}
+/*navibar*/
+#navibar {
+    background-color: cornsilk;
+    position: absolute;
+    height: 100%;
+    min-width:10%;
+    border-right: 1px solid #342368;
+}
+.list-items {
+    font-size: 2em;
+    border: 1px 0px solid #342368;
+    text-align: center;
+    margin: 2vw 0.1em;
+    list-style: none;
+}
+#contact-button:hover {
+    width: larger;
+}
+
+/*logo*/
+header {
+    display: flex;
+    position: static;
+    width:100%;
+    border-bottom: 1px solid #342368;
+}
+#logo {
+    float:left;
+    margin: 0.5em 1em;
+}
+#logo h1{
+    font-family: 'Fira Code', monospace;
+    font-weight: lighter;
+}
+#logo span {
+    font-weight:bold;
+}
+/*main*/
+.div1 {
+    margin-bottom: 9em;
+}
+.back-color {
+    background-color: rgba(235, 206, 208, 0.5)
+}
+h3 + p {
+    text-indent: 20px;
+    text-align: justify;
+    text-justify: auto;
+}
+.title {
+    color: #170B3B;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 1em 0;
+}
+.subtitle {
+    margin:2px 0;
+}
+
+.ul {
+    list-style-position: inherit;
+    text-align: end;
+    width: 50%;
+    margin:0 auto;
+}
+.div1 ul li {
+    margin: 5px 0;
+    list-style-position: outside;
+    margin-left: 1em;
+}
+.right {
+    float: left;
+    width: 25%;
+    text-align: right
+}
+.left {
+    width: 70%;
+    margin-left: 5%;
+    float: left;
+}
+
+.custom_p {
+    font-size: 0.8em;
+}
+.justify {
+    justify-content:right;
+}
+
+/*footer*/
+footer {
+    float: right;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.social-logos{
+    float: right;
+    margin: 1em;
+}
+.social-logos img{
+    width: 30px;
+}

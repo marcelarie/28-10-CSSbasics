@@ -1,0 +1,37 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a { color: inherit; }
+
+/*form*/
+label {
+    padding: 12px 12px 12px 0;
+    font-size: larger;
+    display: inline-block;
+    margin-right: 1em;
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+/* floats */
+.flo-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+.flo-25 {
+    float: left;
+    width: 25%;
+}
+.row {
+    clear: both;
+}
+/*buttons*/
